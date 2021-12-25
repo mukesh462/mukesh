@@ -1,0 +1,25 @@
+
+
+var ListName =scores.map(function(num){
+  return num.name 
+})
+console.log(ListName );
+
+
+
+var passStudent =scores.filter(function(num){
+  return num.marks >= 40;
+})
+console.log(passStudent);
+
+
+
+
+
+var failedStudent = scores.filter(function(num){
+  return num.marks<40;
+  
+})
+
+console.log(failedStudent);
+
